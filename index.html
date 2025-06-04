@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weather Dashboard - Full Features</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="container">
+            <h1>🌦️ Weather Dashboard</h1>
+            <input type="text" id="cityInput" placeholder="Enter city name" />
+            <button onclick="getWeather()">Get Weather</button>
+            <button onclick="resetWeather()">Reset</button>
+
+            <div id="currentWeather"></div>
+
+            <h2>Next 24 Hours Forecast (3-hour intervals)</h2>
+            <div id="forecast24h"></div>
+
+            <button id="toggle5DayBtn" style="display:none; margin-top:20px;" onclick="toggle5Day()">Show Next 5 Days
+                Weather Condition</button>
+
+            <div id="fiveDayForecast">
+                <h2>5-Day Forecast</h2>
+                <div id="forecast5day"></div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="site-footer">
+            <p>© 2024 <strong>Akash Tharu</strong>. All rights reserved.</p>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
