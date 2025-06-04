@@ -1,5 +1,5 @@
 
-const apiKey = "6316e19ae23edce59fc3d2ee1a9a0126"; // Replace with your OpenWeatherMap API key
+const apiKey = "6316e19ae23edce59fc3d2ee1a9a0126"; 
 
 function formatDate(dt) {
     const options = { weekday: "short", month: "short", day: "numeric" };
